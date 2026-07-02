@@ -7,7 +7,7 @@ using Scalar.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Add services to the container yoyoo.
 
 builder.Services.AddDbContext<EBikeShopDbContext>(options =>
     options.UseSqlServer(
