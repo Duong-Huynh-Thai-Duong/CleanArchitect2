@@ -15,7 +15,7 @@ builder.Services.AddScoped<IBikeService, BikeService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryGetAll, CategoryGetAllService>();
 
-// Add services to the container. CON CUA BU VAI CHUONG!!
+// Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
